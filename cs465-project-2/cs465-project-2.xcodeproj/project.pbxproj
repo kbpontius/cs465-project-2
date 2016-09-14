@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2269E301D88D24100CD85DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2269E2F1D88D24100CD85DD /* main.swift */; };
+		A2269E371D88D4D700CD85DD /* HashAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2269E361D88D4D700CD85DD /* HashAttack.swift */; };
+		A2269E3C1D88D71900CD85DD /* ExtensionStringCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2269E3B1D88D71900CD85DD /* ExtensionStringCrypto.swift */; };
+		A2269E3E1D88D81100CD85DD /* ExtensionByteCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2269E3D1D88D81100CD85DD /* ExtensionByteCrypto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2269E2A1D88D24100CD85DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2269E2C1D88D24100CD85DD /* cs465-project-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cs465-project-2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2269E2F1D88D24100CD85DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A2269E361D88D4D700CD85DD /* HashAttack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashAttack.swift; sourceTree = "<group>"; };
+		A2269E381D88D6EA00CD85DD /* cs465-project-2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cs465-project-2-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2269E3B1D88D71900CD85DD /* ExtensionStringCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionStringCrypto.swift; sourceTree = "<group>"; };
+		A2269E3D1D88D81100CD85DD /* ExtensionByteCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionByteCrypto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2269E291D88D24100CD85DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2269E231D88D24100CD85DD = {
+			isa = PBXGroup;
+			children = (
+				A2269E2E1D88D24100CD85DD /* cs465-project-2 */,
+				A2269E2D1D88D24100CD85DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2269E2D1D88D24100CD85DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2269E2C1D88D24100CD85DD /* cs465-project-2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2269E2E1D88D24100CD85DD /* cs465-project-2 */ = {
+			isa = PBXGroup;
+			children = (
+				A2269E361D88D4D700CD85DD /* HashAttack.swift */,
+				A2269E401D88D8D800CD85DD /* Extensions */,
+				A2269E3F1D88D8CD00CD85DD /* Supporting Files */,
+			);
+			path = "cs465-project-2";
+			sourceTree = "<group>";
+		};
+		A2269E3F1D88D8CD00CD85DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2269E2F1D88D24100CD85DD /* main.swift */,
+				A2269E381D88D6EA00CD85DD /* cs465-project-2-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2269E401D88D8D800CD85DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2269E3D1D88D81100CD85DD /* ExtensionByteCrypto.swift */,
+				A2269E3B1D88D71900CD85DD /* ExtensionStringCrypto.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2269E2B1D88D24100CD85DD /* cs465-project-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2269E331D88D24100CD85DD /* Build configuration list for PBXNativeTarget "cs465-project-2" */;
+			buildPhases = (
+				A2269E281D88D24100CD85DD /* Sources */,
+				A2269E291D88D24100CD85DD /* Frameworks */,
+				A2269E2A1D88D24100CD85DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cs465-project-2";
+			productName = "cs465-project-2";
+			productReference = A2269E2C1D88D24100CD85DD /* cs465-project-2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2269E241D88D24100CD85DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kyle Pontius";
+				TargetAttributes = {
+					A2269E2B1D88D24100CD85DD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A2269E271D88D24100CD85DD /* Build configuration list for PBXProject "cs465-project-2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2269E231D88D24100CD85DD;
+			productRefGroup = A2269E2D1D88D24100CD85DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2269E2B1D88D24100CD85DD /* cs465-project-2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2269E281D88D24100CD85DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2269E301D88D24100CD85DD /* main.swift in Sources */,
+				A2269E371D88D4D700CD85DD /* HashAttack.swift in Sources */,
+				A2269E3E1D88D81100CD85DD /* ExtensionByteCrypto.swift in Sources */,
+				A2269E3C1D88D71900CD85DD /* ExtensionStringCrypto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2269E311D88D24100CD85DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2269E321D88D24100CD85DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2269E341D88D24100CD85DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cs465-project-2/cs465-project-2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2269E351D88D24100CD85DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cs465-project-2/cs465-project-2-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2269E271D88D24100CD85DD /* Build configuration list for PBXProject "cs465-project-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2269E311D88D24100CD85DD /* Debug */,
+				A2269E321D88D24100CD85DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2269E331D88D24100CD85DD /* Build configuration list for PBXNativeTarget "cs465-project-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2269E341D88D24100CD85DD /* Debug */,
+				A2269E351D88D24100CD85DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2269E241D88D24100CD85DD /* Project object */;
+}
