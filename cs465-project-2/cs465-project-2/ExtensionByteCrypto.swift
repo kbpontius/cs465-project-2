@@ -14,7 +14,7 @@ extension Byte {
     
     // MARK: - General Methods -
     
-    func toDecimal() -> String {
+    func byteToDecimal() -> String {
         return String(self, radix: 2)
     }
 }

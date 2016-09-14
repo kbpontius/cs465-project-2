@@ -19,6 +19,8 @@ class HashAttack {
     // MARK: - Internal Methods -
     
     func execute() {
-        
+        let message = "Hello world!"
+        let sha1 = message.sha1().hexToByte()
+        print("SHA-1 Message: \(sha1)")
     }
 }

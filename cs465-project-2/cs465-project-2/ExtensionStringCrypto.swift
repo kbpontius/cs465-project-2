@@ -20,18 +20,18 @@ extension String {
         return hexBytes.joinWithSeparator("")
     }
     
-    func toDecimal() -> String {
-        let byte = toByte(self)
-        return byte.toDecimal()
+    func hexToNumerical() -> String {
+        let byte = hexToByte(self)
+        return byte.byteToDecimal()
     }
     
-    func toByte() -> Byte {
-        return toByte(self)
+    func hexToByte() -> Byte {
+        return hexToByte(self)
     }
     
     // MARK: - Helper Methods -
     
-    private func toByte(hex: String) -> Byte {
-        return Byte(hex, radix: 16)!
+    private func hexToByte(hex: String) -> Byte {
+        return Byte(Int(hex, radix: 16)!)
     }
 }
