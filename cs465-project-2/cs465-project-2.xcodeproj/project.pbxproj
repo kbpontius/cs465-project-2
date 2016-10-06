@@ -11,6 +11,7 @@
 		A2269E371D88D4D700CD85DD /* HashAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2269E361D88D4D700CD85DD /* HashAttack.swift */; };
 		A2269E3C1D88D71900CD85DD /* ExtensionStringCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2269E3B1D88D71900CD85DD /* ExtensionStringCrypto.swift */; };
 		A2269E3E1D88D81100CD85DD /* ExtensionByteCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2269E3D1D88D81100CD85DD /* ExtensionByteCrypto.swift */; };
+		A2E8D1311DA6D9D600A6CD1F /* ExtensionInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8D1301DA6D9D600A6CD1F /* ExtensionInt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		A2269E381D88D6EA00CD85DD /* cs465-project-2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cs465-project-2-Bridging-Header.h"; sourceTree = "<group>"; };
 		A2269E3B1D88D71900CD85DD /* ExtensionStringCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionStringCrypto.swift; sourceTree = "<group>"; };
 		A2269E3D1D88D81100CD85DD /* ExtensionByteCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionByteCrypto.swift; sourceTree = "<group>"; };
+		A2E8D1301DA6D9D600A6CD1F /* ExtensionInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionInt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				A2269E3D1D88D81100CD85DD /* ExtensionByteCrypto.swift */,
+				A2E8D1301DA6D9D600A6CD1F /* ExtensionInt.swift */,
 				A2269E3B1D88D71900CD85DD /* ExtensionStringCrypto.swift */,
 			);
 			name = Extensions;
@@ -116,11 +119,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Kyle Pontius";
 				TargetAttributes = {
 					A2269E2B1D88D24100CD85DD = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -149,6 +153,7 @@
 				A2269E301D88D24100CD85DD /* main.swift in Sources */,
 				A2269E371D88D4D700CD85DD /* HashAttack.swift in Sources */,
 				A2269E3E1D88D81100CD85DD /* ExtensionByteCrypto.swift in Sources */,
+				A2E8D1311DA6D9D600A6CD1F /* ExtensionInt.swift in Sources */,
 				A2269E3C1D88D71900CD85DD /* ExtensionStringCrypto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,8 +175,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -215,8 +222,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -235,6 +244,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -247,6 +257,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "cs465-project-2/cs465-project-2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -258,6 +269,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "cs465-project-2/cs465-project-2-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -280,6 +292,7 @@
 				A2269E351D88D24100CD85DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
