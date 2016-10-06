@@ -14,7 +14,7 @@ class HashAttack {
     
     var messageSet = Set<String>()
     var resultSet = Set<String>()
-    var results = [Int]()
+    var results = [Double]()
     var currentIndex = 0
     
     // MARK: - Test Constants
@@ -62,17 +62,17 @@ class HashAttack {
         guard !resultSet.contains(truncatedString) else { return true }
     
         resultSet.insert(truncatedString)
-        print("SHA-1 Message: \(sha1)")
-        print("Binary Version: \(binaryString)")
-        print("Truncated String: \(truncatedString)")
+//        print("SHA-1 Message: \(sha1)")
+//        print("Binary Version: \(binaryString)")
+//        print("Truncated String: \(truncatedString)")
         
         return false
     }
     
     // MARK: - Helper Methods -
     
-    fileprivate func average(input: [Int]) -> Int {
-        return input.reduce(0) { $0 + $1/input.count }
+    fileprivate func average(input: [Double]) -> Double {
+        return input.reduce(0) { $0 + $1/Double(input.count) }
     }
     
     fileprivate func printTestResults() {
@@ -93,7 +93,7 @@ class HashAttack {
     }
     
     fileprivate func resetForNewTest() {
-        results.append(currentIndex)
+        results.append(Double(currentIndex))
         currentIndex = 0
         resultSet.removeAll()
         messageSet.removeAll()
